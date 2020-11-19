@@ -1,0 +1,15 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: eureka-client-test
+eureka:
+  instance:
+    #以IP地址注册到服务中心，相互注册使用IP地址
+    preferIpAddress: true
+    instance-id: 192.168.9.106:8762
+  client:
+    #eureka server注册中心的地址
+    serviceUrl:
+      defaultZone: http://192.168.9.106:8761/eureka/
