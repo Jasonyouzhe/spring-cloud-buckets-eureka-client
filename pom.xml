@@ -48,6 +48,5 @@
             <version>${spring.cloud.component.version}</version>
         </dependency>
 
-
     </dependencies>
 </project>
